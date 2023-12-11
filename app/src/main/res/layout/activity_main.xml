@@ -44,22 +44,22 @@
         tools:layout_editor_absoluteY="481dp" />
 
     <ImageView
-        android:id="@+id/Saturno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@tools:sample/avatars"
-        app:srcCompat="@drawable/saturnos"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="383dp" />
-
-    <ImageView
         android:id="@+id/nuvens5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@tools:sample/avatars"
         app:srcCompat="@drawable/nuvens2"
-        tools:layout_editor_absoluteX="-177dp"
-        tools:layout_editor_absoluteY="-19dp" />
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/Saturno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@tools:sample/avatars"
+        app:srcCompat="@drawable/saturnos"
+        tools:layout_editor_absoluteX="-133dp"
+        tools:layout_editor_absoluteY="348dp" />
 
     <ImageView
         android:id="@+id/Capivara"
@@ -71,31 +71,42 @@
         tools:layout_editor_absoluteY="95dp" />
 
     <ImageView
-        android:id="@+id/meteorored"
+        android:id="@+id/meteoroazul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotationY="-186"
         android:src="@tools:sample/avatars"
         app:srcCompat="@drawable/meteazul"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="-75dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-179dp" />
 
     <ImageView
-        android:id="@+id/meteoroblue"
+        android:id="@+id/meteorovermelho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotationY="180"
         android:src="@tools:sample/avatars"
         app:srcCompat="@drawable/metverm"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="-36dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="116dp" />
 
-    <ImageView
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:background="@drawable/btnplay"
+        android:text="Play"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="215dp"
         android:id="@+id/btnPlay"
+        />
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/btnplay"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="95dp" />
+        android:text="Play"
+        android:textStyle="bold"
+        android:textSize="33sp"
+        android:layout_below="@id/btnPlay"
+        android:layout_centerInParents="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
